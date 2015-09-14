@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8"> 
+    <title>EasyBovespa</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="popup.js"></script>
+    <style type="text/css" >
+      body {
+        min-width: 200px; /* your desired width */
+        max-width: 100%;
+        position: relative;
+        vertical-align:middle;
+      }
+      div {
+        padding:5px;
+        margin:0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="col-lg-6">
+      <div class="input-group">
+        <input id="input1" type="text" class="form-control" placeholder="Digite o código">
+        <span class="input-group-btn">
+          <button id="button1" class="btn btn-default" type="button">Pesquisar</button>
+        </span>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h5 class="panel-title" id="stock_name" />
+      </div>
+      <div id="stock_information">
+      </div>
+    </div>
+  </body>
+</html>

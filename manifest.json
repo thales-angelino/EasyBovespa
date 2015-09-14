@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "EasyBovespa",
+  "description": "Mostra as cotações diárias de ações listadas na BM&FBOVESPA",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "https://ajax.googleapis.com/",
+    "http://www.bmfbovespa.com.br/"
+  ]
+}
